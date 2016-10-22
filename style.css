@@ -1,0 +1,54 @@
+.body {
+	background: #f0eeee;
+}
+
+.content {
+	margin: 0 auto;
+	width: 900px;
+	height: 1000px;
+	font-family: Arial;
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+
+img {
+	height: 200px;
+	border: #c3bcbc 2px solid;
+	display: block;
+    margin: 30px auto;
+}
+
+.descr {
+	margin-left: 150px;
+}
+
+.job {
+	color: #7a7171;
+	padding-bottom: 20px;
+}
+
+.info {
+	border-top: #c3bcbc 2px solid;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	width: 600px;
+}
+
+span {
+	padding-left: 30px;
+}
+
+ul {
+	line-height: 25px;
+	margin-bottom: 0px;
+}
+
+a {
+	font-style: italic;
+}
