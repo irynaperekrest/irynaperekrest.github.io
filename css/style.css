@@ -76,10 +76,10 @@ header{
 }
 .sidebar a:hover{
   width: 238px;
+  height: 38px;
   text-indent: 35px;
   color: #2c2c2c;
   background-color: #f9f9f9;
-  border-bottom: 1px solid #c8c8c8;
 }
 
 /*MAIN*/
