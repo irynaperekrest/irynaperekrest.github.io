@@ -95,7 +95,7 @@ main img{
   box-sizing: border-box;
   margin-bottom: 40px;
 }
-article p{
+.text p{
   color: #2c2c2c;
   line-height: 21px;
   padding: 0 24px;
