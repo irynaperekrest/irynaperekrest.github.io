@@ -2,7 +2,7 @@ function pow(x, n) {
     var x = prompt('Enter x value');
     var n = prompt('Enter n value');
     var result = 1;
-    for (i = 0; i < Math.abs(n); i++) {
+    for (var i = 0; i < Math.abs(n); i++) {
         result *= x;
 
     }
