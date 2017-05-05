@@ -1,3 +1,5 @@
+'use strict';
+
 function pow(x, n) {
     var x = prompt('Enter x value');
     var n = prompt('Enter n value');
