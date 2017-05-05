@@ -1,4 +1,5 @@
 (function() {
+
     'use strict';
 
     var nameList = [];
@@ -10,17 +11,21 @@
     console.log(nameList);
 
     var yourName = prompt('Please enter YOUR name', '');
-    var hit = [];
 
-    for (var i = 0; i < nameList.length; i++) {
-        if (nameList[i] === yourName) {
-            hit.push(nameList[i]);
+    function searchName(yourName) {
+        for (var i = 0; i < nameList.length; i++) {
+            if (nameList[i] === yourName) {
+                return nameList[i];
+            }
         }
+        return null;
     }
 
-    if (hit.length === 0) {
-        alert('The name is not found')
+    var result = searchName(yourName);
+
+    if (result) {
+        alert(yourName + ' you have successfully logged in')
     } else {
-        alert(hit[0] + ' you have successfully logged in')
+        alert('Error')
     }
 })();
