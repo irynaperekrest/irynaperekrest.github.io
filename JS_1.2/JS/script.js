@@ -1,8 +1,9 @@
 (function() {
+    'use strict';
 
     var nameList = [];
 
-    for (i = 0; i < 5; i++) {
+    for (var i = 0; i < 5; i++) {
         nameList[i] = prompt('Enter a name', '');
     }
 
@@ -11,7 +12,7 @@
     var yourName = prompt('Please enter YOUR name', '');
     var hit = [];
 
-    for (i = 0; i < nameList.length; i++) {
+    for (var i = 0; i < nameList.length; i++) {
         if (nameList[i] === yourName) {
             hit.push(nameList[i]);
         }
